@@ -24,7 +24,6 @@ import java.util.Date;
 @Accessors(chain = true)
 public class User implements Serializable {
 
-
     @Serial
     private static final long serialVersionUID = -8903651275484949738L;
     /**

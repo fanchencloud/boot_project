@@ -58,9 +58,9 @@ public enum ResultEnum {
     REQ_METHOD_NOT_SUPPORT(110,"请求方式不支持"),
     ;
 
-    private Integer code;
+    private final Integer code;
 
-    private String msg;
+    private final String msg;
 
     ResultEnum(Integer code, String msg) {
         this.code = code;

@@ -4,6 +4,8 @@ package cn.fanchencloud.boot_project.utils;
 import cn.fanchencloud.boot_project.enums.ResultEnum;
 import cn.fanchencloud.boot_project.vo.ResultVo;
 
+import static cn.fanchencloud.boot_project.config.WebCodeConfig.*;
+
 /**
  * @author huangxunhui
  * Date: Created in 18/8/20 上午11:05
@@ -27,7 +29,7 @@ public class ResultVoUtil {
      */
     public static ResultVo success(Object object) {
         ResultVo result = new ResultVo();
-        result.setCode(0);
+        result.setCode(CODE_SUCCESS);
         result.setMessage("ok");
         result.setData(object);
         return result;

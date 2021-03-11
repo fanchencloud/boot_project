@@ -4,9 +4,13 @@ spring:
     url: jdbc:mysql://127.0.0.1:3310/basic_project?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
     password: Admin@123456
-#  ### 配置Redis
-#  redis:
-#    database: 0
-#    host: 10.0.0.32
-#    port: 6379
-#    password: 1470634109
+  ### 配置Redis
+  redis:
+    # Redis 数据库索引
+    database: 0
+    # Redis 服务器地址
+    host: 127.0.0.1
+    # Redis 服务器连端口
+    port: 6379
+    # Redis 服务器连接密码
+    password: 123456
